@@ -1,0 +1,7 @@
+# FastAPI Food Delivery App - Dependencies
+# Core web framework for building APIs
+fastapi>=0.100.0
+# ASGI server with standard features (includes httptools, uvloop, websockets)
+uvicorn[standard]>=0.23.0
+
+# Note: Pydantic is included with FastAPI, no separate installation needed
